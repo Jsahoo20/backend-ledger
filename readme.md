@@ -4,7 +4,7 @@ A **Node.js + Express + MongoDB** based backend system that simulates a **digita
 
 This project focuses on **account management, transactions, and secure authentication**, providing a scalable backend architecture.
 
----
+
 
 ## Features
 
@@ -17,13 +17,12 @@ This project focuses on **account management, transactions, and secure authentic
 - Error Handling & Validation
 - Email Notifications (optional)
 
----
+
 
 ## Project Overview
 
 This project simulates how financial systems work internally:
 
-```text
 User → Account → Transaction → Ledger Updates
 
 ---
@@ -41,7 +40,7 @@ User → Account → Transaction → Ledger Updates
 
 ## Folder Structure
 
-```
+
 backend-ledger/
 │── src/
 │   ├── config/        # DB configuration
@@ -55,7 +54,7 @@ backend-ledger/
 ├── server.js          # Entry point
 ├── .env               # Environment variables
 ├── package.json
-```
+
 
 ---
 

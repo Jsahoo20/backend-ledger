@@ -25,7 +25,7 @@ This project simulates how financial systems work internally:
 
 User → Account → Transaction → Ledger Updates
 
----
+
 
 ## Tech Stack
 
@@ -36,27 +36,24 @@ User → Account → Transaction → Ledger Updates
 * **Email Service:** Nodemailer
 * **Other:** bcrypt, middleware, REST APIs
 
----
-
 ## Folder Structure
 
 
 backend-ledger/
 │── src/
-│   ├── config/        # DB configuration
-│   ├── controllers/   # Business logic
-│   ├── models/        # Mongoose schemas
-│   ├── routes/        # API routes
-│   ├── middleware/    # Auth middleware
-│   ├── services/      # Email service
-│   └── app.js         # Main app
+│ ├── config/ # DB configuration
+│ ├── controllers/ # Business logic
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # API routes
+│ ├── middleware/ # Auth middleware
+│ ├── services/ # Email service
+│ └── app.js # Main app
 │
-├── server.js          # Entry point
-├── .env               # Environment variables
+├── server.js # Entry point
+├── .env # Environment variables
 ├── package.json
 
 
----
 
 ## API Endpoints
 
@@ -67,7 +64,6 @@ backend-ledger/
 | POST   | `/api/auth/register` | Register user |
 | POST   | `/api/auth/login`    | Login user    |
 
----
 
 ### Account Routes
 
@@ -76,7 +72,7 @@ backend-ledger/
 | POST   | `/api/account` | Create account      |
 | GET    | `/api/account` | Get account details |
 
----
+
 
 ### Transaction Routes
 
@@ -85,7 +81,7 @@ backend-ledger/
 | POST   | `/api/transaction` | Transfer money   |
 | GET    | `/api/transaction` | Get transactions |
 
----
+
 
 ## Testing
 
@@ -102,7 +98,7 @@ POST /api/auth/register
 }
 ```
 
----
+
 
 ## Future Improvements
 
@@ -110,10 +106,9 @@ POST /api/auth/register
 * Payment Gateway Integration
 * Analytics & Reports
 
----
+
 
 ## Show your support
 
 If you like this project, give it a ⭐ on GitHub!
 
-````

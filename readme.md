@@ -36,24 +36,6 @@ User → Account → Transaction → Ledger Updates
 * **Email Service:** Nodemailer
 * **Other:** bcrypt, middleware, REST APIs
 
-## Folder Structure
-
-
-backend-ledger/
-│── src/
-│ ├── config/ # DB configuration
-│ ├── controllers/ # Business logic
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ ├── middleware/ # Auth middleware
-│ ├── services/ # Email service
-│ └── app.js # Main app
-│
-├── server.js # Entry point
-├── .env # Environment variables
-├── package.json
-
-
 
 ## API Endpoints
 
